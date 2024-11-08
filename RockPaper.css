@@ -1,0 +1,358 @@
+#upper
+{
+   /* background-color: rgb(28, 28, 73);*/
+    background-image: linear-gradient(to top,#000000,#4965a1);
+    width: 400px;
+    margin-left: 500px;
+    text-align: center;
+}
+#upperDark
+{
+   /* background-color: rgb(130, 191, 231);*/
+    background-image: linear-gradient(to top,#a3c151,#20baad);
+    width: 400px;
+    margin-left: 500px;
+    text-align: center;
+}
+#heading
+{
+    color: rgb(247, 240, 240);
+    text-align: center;
+}
+#headingDark
+{
+    color: rgb(12, 11, 11);
+    text-align: center;
+}
+#body
+{
+    background-image: linear-gradient(to top,#a3c151,#20baad);
+    height: 100vh;
+    /*background-color: rgb(218, 231, 250);*/
+}
+#bodyDark
+{
+    background-image: linear-gradient(to top,#000000,#233a6c);
+    height: 100vh;
+    /*background-color: rgb(25, 25, 26);*/
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    
+    margin: 0 auto;
+    
+    margin-top: 100px;
+}
+.box
+{
+    height: 100px;
+    border-radius: 50%;
+    width: 120px;
+    color: rgb(2, 2, 2);
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 25px;
+}
+.box:hover
+{
+    opacity: 0.5;
+}
+#Rock
+{
+   background-color: rgb(223, 116, 53);
+   
+   
+}
+
+#Paper
+{
+    background-color: rgb(36, 144, 144);
+}
+#scissor
+{
+    background-color: rgb(60, 160, 100);
+}
+
+.ScoreBoard
+{
+    padding-top: 50px;
+    text-align: center;
+}
+#result
+{
+    max-width: 210px; /* Set a maximum width */
+    height: auto;
+    background-color:rgb(55, 55, 161);
+    margin-left: 585px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 100px;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+
+}
+#resultDark
+{
+    max-width: 210px; /* Set a maximum width */
+    height: auto;
+    background-color:rgb(181, 214, 227);
+    margin-left: 585px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: black;
+    color: rgb(15, 14, 14);
+    text-align: center;
+    font-weight: 100px;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+/*.resultUser
+{
+    max-width: 210px; 
+    height: auto;
+    background-color: rgb(67, 236, 67);
+    margin-left: 585px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 100px;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+.resulComp
+{
+    max-width: 210px; 
+    height: auto;
+    background-color: rgb(237, 74, 29);
+    margin-left: 585px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 100px;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+.resulDraw
+{
+    max-width: 210px; 
+    height: auto;
+    background-color: rgb(44, 79, 145);
+    margin-left: 585px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 100px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}*/
+/*#result:hover
+{
+    opacity: 0.6;
+}*/
+#comInput
+{
+    width: 300px;
+    height: 20px;
+    text-decoration: rgb(8, 189, 8);
+    margin-left: 540px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: black;
+    color: rgb(111, 48, 236);
+    text-align: center;
+    font-weight: 300px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    
+}
+#comInputDark
+{
+    width: 200px;
+    height: 20px;
+    text-decoration: green;
+    margin-left: 540px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: black;
+    color: rgb(229, 224, 239);
+    text-align: center;
+    font-weight: 100px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+#Darkmode
+{
+    width: 40px;
+    height: 40px;
+    align-self: flex-end;
+    right: 20px; 
+    z-index: 1000;
+    padding-left: 1300px;
+    padding-top: 10px;
+}
+#UserScore
+{
+    color: rgb(19, 106, 41);
+}
+#UserScoreDark
+{
+    color: rgb(220, 228, 235);
+}
+#ComScore
+{
+    color: rgb(195, 66, 37);
+}
+
+#ComScoreDark
+{
+    color: aliceblue;
+}
+
+
+
+/*Animation*/
+
+.wap span
+{
+    position: fixed;
+    bottom: -50px;
+    height: 50px;
+    width:50px;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-color: #fff;
+    animation: animate 10s linear infinite;
+}
+.wap span:nth-child(1)
+{
+    left: 0;
+    animation-delay: 0.6s;
+
+}
+.wap span:nth-child(2)
+{
+    left: 10%;
+    animation-delay: 3s;
+    
+}
+.wap span:nth-child(3)
+{
+    left: 20%;
+    animation-delay: 2s;
+    
+}
+.wap span:nth-child(4)
+{
+    left: 30%;
+    animation-delay: 5s;
+    
+}
+.wap span:nth-child(5)
+{
+    left: 40%;
+    animation-delay: 1s;
+    
+}
+.wap span:nth-child(6)
+{
+    left: 50%;
+    animation-delay: 7s;
+    
+}
+.wap span:nth-child(7)
+{
+    left: 60%;
+    animation-delay: 6s;
+    
+}
+.wap span:nth-child(8)
+{
+    left: 70%;
+    animation-delay: 8s;
+    
+}
+.wap span:nth-child(9)
+{
+    left: 80%;
+    animation-delay: 6s;
+    
+}
+.wap span:nth-child(10)
+{
+    left: 90%;
+    animation-delay: 4s;
+    
+}
+@keyframes animate {
+    0%
+    {
+        bottom: 0;
+        margin-left: 90px;
+        margin-right: 0;
+        opacity: 1;
+    }
+    20%
+    {
+        bottom: 20%;
+        margin-left: 0;
+        margin-right: 90px;
+        opacity: 0.8;
+    }
+    40%
+    {
+        bottom: 40%;
+        margin-left: 90px;
+        margin-right: 0;
+        opacity: 0.6;
+    }
+    60%
+    {
+        bottom: 60%;
+        margin-left: 90px;
+        margin-right: 0;
+        opacity: 0.4;
+    }
+    80%
+    {
+        bottom: 80%;
+        margin-left: 90px;
+        margin-right: 0;
+        opacity: 0.2;
+    }
+    100%
+    {
+        bottom: 100%;
+        margin-left: 90px;
+        margin-right: 0;
+        opacity: 0;
+    }
+    
+}
